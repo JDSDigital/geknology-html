@@ -1,1 +1,74 @@
 /* Add here all your css styles (customizations) */
+/**
+* Styles from One Page Agency
+*/
+/* Colors */
+.g-color-primary-dark-v1 {
+  color: #0067b6 !important;
+}
+
+.g-theme-color-gray-light-v3 {
+  color: #89848a !important;
+}
+
+/* Background */
+.g-bg-primary-dark-v1 {
+  background-color: #0067b6 !important;
+}
+
+.g-bg-primary-dark-v1--hover:hover {
+  background-color: #0067b6 !important;
+}
+
+.g-bg-primary-dark-v1-opacity-0_8 {
+  background-color: rgba(0, 103, 182, 0.8) !important;
+}
+
+.g-bg-primary-dark-v1-opacity-0_9 {
+  background-color: rgba(0, 103, 182, 0.9) !important;
+}
+
+.g-bg-primary-dark-v1-opacity-0_9--hover:hover {
+  background-color: rgba(0, 103, 182, 0.9) !important;
+}
+
+.g-theme-bg-gray-dark-v1 {
+  background-color: #383339 !important;
+}
+
+.g-theme-bg-gray-dark-v1-opacity-0_95 {
+  background-color: rgba(56, 51, 57, 0.95) !important;
+}
+
+.g-theme-bg-gray-dark-v1-opacity-0_95--after::after {
+  background-color: rgba(56, 51, 57, 0.95) !important;
+}
+
+.g-theme-bg-gray-dark-v2 {
+  background-color: #3e393f !important;
+}
+
+.g-theme-bg-gray-dark-v2--hover:hover {
+  background-color: #3e393f !important;
+}
+
+.g-theme-bg-gray-light-v4 {
+  background-color: #f8f8f8 !important;
+}
+
+/* Border */
+.g-theme-brd-gray-dark-v3 {
+  border-color: #504a51 !important;
+}
+
+.g-theme-brd-gray-dark-v4 {
+  border-color: #3f3a40 !important;
+}
+
+.g-parent:hover .g-brd-primary--parent-hover {
+  border-color: #0067b6 !important;
+}
+
+.g-parent:hover .g-brd-primary-dark--parent-hover {
+  border-color: #0067b6 !important;
+}

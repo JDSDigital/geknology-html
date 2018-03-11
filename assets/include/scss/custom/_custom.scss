@@ -1,1 +1,87 @@
 /* Add here all your css styles (customizations) */
+@import "_custom.variables";
+
+/**
+* Styles from One Page Agency
+*/
+
+/* Colors */
+.g-color-primary-dark-v1 {
+  color: $g-color-primary !important;
+}
+
+.g-theme-color-gray-light-v3 {
+  color: $g-theme-color-gray-light-v3 !important;
+}
+
+/* Background */
+.g-bg-primary-dark-v1 {
+  background-color: $g-color-primary !important;
+
+  &--hover:hover {
+    background-color: $g-color-primary !important;
+  }
+
+  &-opacity {
+    &-0_8 {
+      background-color: rgba($g-color-primary, .8) !important;
+    }
+
+    &-0_9 {
+      background-color: rgba($g-color-primary, .9) !important;
+
+      &--hover:hover {
+        background-color: rgba($g-color-primary, .9) !important;
+      }
+    }
+  }
+}
+
+.g-theme-bg-gray-dark-v1 {
+  background-color: $g-theme-color-gray-dark-v1 !important;
+
+  &-opacity {
+    &-0_95 {
+      background-color: rgba($g-theme-color-gray-dark-v1, .95) !important;
+
+      &--after::after {
+        background-color: rgba($g-theme-color-gray-dark-v1, .95) !important;
+      }
+    }
+  }
+}
+
+.g-theme-bg-gray-dark-v2 {
+  background-color: $g-theme-color-gray-dark-v2 !important;
+
+  &--hover:hover {
+    background-color: $g-theme-color-gray-dark-v2 !important;
+  }
+}
+
+.g-theme-bg-gray-light-v4 {
+  background-color: $g-theme-color-gray-light-v4 !important;
+}
+
+/* Border */
+.g-theme-brd-gray-dark-v3 {
+  border-color: $g-theme-color-gray-dark-v3 !important;
+}
+
+.g-theme-brd-gray-dark-v4 {
+  border-color: $g-theme-color-gray-dark-v4 !important;
+}
+
+.g-parent:hover {
+  .g-brd-primary {
+    &--parent-hover {
+      border-color: $g-color-primary !important;
+    }
+  }
+
+  .g-brd-primary-dark {
+    &--parent-hover {
+      border-color: $g-color-primary !important;
+    }
+  }
+}
