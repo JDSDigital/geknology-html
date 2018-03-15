@@ -2230,11 +2230,11 @@
 
 /* Main Colors */
 .g-brd-main {
-  border-color: #a49da6 !important;
+  border-color: #3e393f !important;
 }
 
 .g-brd-main--hover:hover {
-  border-color: #a49da6 !important;
+  border-color: #3e393f !important;
 }
 
 /* Black Colors */
@@ -5841,11 +5841,11 @@
 
 /* Main Colors */
 .g-color-main {
-  color: #a49da6 !important;
+  color: #3e393f !important;
 }
 
 .g-color-main--hover:hover {
-  color: #a49da6 !important;
+  color: #3e393f !important;
 }
 
 /* Primary Colors */

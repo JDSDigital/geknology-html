@@ -1,6 +1,13 @@
 /* Add here all your css styles (customizations) */
 @import "_custom.variables";
 
+.services-title {
+  color: $g-theme-color-gray-dark-v2 !important;
+}
+.services-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 /**
 * Styles from One Page Agency
 */

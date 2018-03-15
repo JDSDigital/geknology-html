@@ -1,4 +1,12 @@
 /* Add here all your css styles (customizations) */
+.services-title {
+  color: #3e393f !important;
+}
+
+.services-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 /**
 * Styles from One Page Agency
 */

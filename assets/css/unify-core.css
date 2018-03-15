@@ -11,7 +11,7 @@ body {
   font-size: 1rem;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  color: #a49da6;
+  color: #3e393f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga", "kern";
@@ -30,12 +30,12 @@ a:hover {
 }
 
 .nav-link {
-  color: #a49da6;
+  color: #3e393f;
 }
 
 .nav-link:focus,
 .nav-link:hover {
-  color: #a49da6;
+  color: #3e393f;
 }
 
 figure {
