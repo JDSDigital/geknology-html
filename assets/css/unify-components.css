@@ -25032,7 +25032,7 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .services-list li:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 /**
