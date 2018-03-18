@@ -25035,6 +25035,10 @@ pre[class*="language-"] .toolbar-item a {
   margin-bottom: 5px;
 }
 
+.g-font-size-16 {
+  font-size: 16px !important;
+}
+
 /**
 * Styles from One Page Agency
 */
