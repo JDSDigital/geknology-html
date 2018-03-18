@@ -2457,7 +2457,7 @@
 }
 
 .g-brd-gray-light-v4 {
-  border-color: #eee !important;
+  border-color: #CCCCCC#CCCCCC !important;
 }
 
 .g-brd-gray-light-v4--hover:hover, .g-brd-gray-light-v4--active.active {
@@ -13669,8 +13669,8 @@
   }
   /* P */
   .g-py-60 {
-    padding-top: 2.28571rem !important;
-    padding-bottom: 1.28571rem !important;
+    padding-top: 4.28571rem !important;
+    padding-bottom: 4.28571rem !important;
   }
   /* P */
   .g-py-65 {
