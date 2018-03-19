@@ -9,10 +9,11 @@ var gulp           = require('gulp'), // Gulp
 //
 
 // Unify Main
+// 'compressed', 'expanded'
 gulp.task('sass', function() {
   return gulp.src('./assets/include/scss/**/*.scss')
     .pipe(changed('./assets/css/'))
-    .pipe(sass({outputStyle:'expanded'}))
+    .pipe(sass({outputStyle:'compressed'}))
     .pipe(autoprefixer(['last 3 versions', '> 1%'], { cascade: true }))
     .pipe(gulp.dest('./assets/css/'))
 });
